@@ -1,4 +1,98 @@
+/* definisons la famille de police */
+
+@import URL('HTTPS://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #ffffff;
+    --yellow-color: #ffff00;
+    --yellow-color: #f8f184;
+    --blue-color: #19587d;
+    --red-color: #b11313;
+    --black-color: #0D0E09;
+    --blue-color: #19587d;
+    --red-color: #890008;
+    --gris-color: #c4c4c4;
+}
+
+
+/* definitions des polices */
+
+body {
+    background-color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    text-size-adjust: 16px;
+}
+
+nav {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*texte a decoration et animation */
+
+nav ul a {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul a :hover {
+    color: var(--yellow-color);
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Definition Container */
+
+.container {
+    width: 80%;
+    margin: 0% auto;
+}
+
+
+/* Design de la partie hero */
+
 #myHeader {
-    background-image: url(/asset/Illustrations/Bathome1.png);
+    background-image: url(../Illustrations/Bathome1.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 600px;
     background: hsla(0, 0%, 0%, 0.3) text-align: center;
 }
