@@ -94,13 +94,15 @@ nav ul a :hover {
 h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
+    padding: 5% 0%;
 }
 
 h2 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     font-weight: 700;
+    padding: 5% 0%;
 }
 
 button {
@@ -140,12 +142,11 @@ button {
 }
 
 aside {
-    width: 30%;
     display: block;
-    align-items: center;
-    justify-content: center;
-    float: right;
-    margin-left: 80px;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
     background-color: transparent;
 }
 
@@ -166,4 +167,43 @@ aside {
 .batman-personnage {
     display: flex;
     justify-content: space-between;
+    padding: 5% 0%;
+}
+
+.legende {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.img1 {
+    float: inline-end;
+    width: 8%;
+    height: 1%;
+    margin-left: -2%;
+    margin-top: 2%;
+}
+
+.habillage {
+    display: flex;
+    justify-content: start;
+}
+
+.paramain {
+    text-align: justify;
+    margin-right: 250px;
+}
+
+.habillage2 {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+}
+
+.img2 {
+    float: right;
+    width: 30%;
+    height: 20%;
+    margin-right: -12%;
+    margin-top: -10%;
 }
