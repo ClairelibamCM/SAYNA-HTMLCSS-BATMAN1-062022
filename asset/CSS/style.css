@@ -14,8 +14,8 @@
     --blue-color: #19587d;
     --red-color: #b11313;
     --black-color: #0D0E09;
-    --bluelight-color: #19587d;
-    --redlight-color: #890008;
+    --gradient-white: #18577b80;
+    --gradient-red: #8900099a;
     --gris-color: #c4c4c454;
 }
 
@@ -27,7 +27,7 @@
     border-style: groove;
     border: 2px solid var(--gris-color);
     border-top: none;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: 6%;
     margin-right: 6%;
 }
@@ -36,7 +36,7 @@
     color: white;
     border-style: groove;
     border: 2px solid var(--gris-color);
-    border-top: 3px solid var(--gris-color);
+    border-top: none;
     border-bottom: none;
     margin-left: 6%;
     margin-right: 6%;
@@ -106,10 +106,35 @@ h2 {
     padding: 5% 0%;
 }
 
-button {
+.btn {
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    text-decoration: none;
+    padding: 5px 40px;
+    height: 30px;
+    background-color: linear-gradient( 90deg, var(--gradient-white);
+    var(--gradient-red));
+}
+
+#flecheheader {
+    display: block;
+    margin: 0 auto;
+    margin-top: 160px;
+    width: -10%;
+}
+
+.cta {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
 }
 
 
@@ -126,8 +151,8 @@ button {
 #myhero {
     background-image: url(../Illustrations/Bathome1.png);
     background-color: var(--red-color);
-    height: 1100px;
-    margin-top: -300px;
+    height: 900px;
+    margin-top: -150px;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,8 +163,9 @@ button {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    width: 60%;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 20%;
     margin-right: 15%;
     padding-top: 40px;
@@ -147,14 +173,22 @@ button {
     color: white;
 }
 
-aside {
+.aside {
     display: block;
-    position: absolute;
-    vertical-align: sub;
-    margin-right: 60px;
-    margin-left: 200px;
-    width: 300px;
+    width: 150px;
+    margin-left: 1258px;
+    margin-top: -450px;
     background-color: transparent;
+}
+
+.aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 5%;
+    height: 1%;
 }
 
 
@@ -163,7 +197,7 @@ aside {
 .texteh {
     display: flex;
     text-align: center;
-    width: 40%;
+    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -225,17 +259,4 @@ aside {
 .container2 {
     width: 100%;
     margin: -10px;
-}
-
-.cta {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 15%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: white;
 }
