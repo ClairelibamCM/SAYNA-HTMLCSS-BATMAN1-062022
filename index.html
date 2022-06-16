@@ -27,7 +27,7 @@
         </div>
     </header>
     <main>
-        <!-- La première partie -->
+        <!-- La section du hero -->
         <section id="myhero">
             <section class="borderb">
                 <div class="container">
@@ -38,8 +38,12 @@
                                 <h3 class="titre">Il est Batman.</h3>
                             </div>
                             <div class="cta">
-                                <a class="btn" href="#">VOIR LE HEROS</a>
-                                <a class="btn" href="#">LES ADVERSAIRES</a>
+                                <div>
+                                    <a href="#" class="btn">VOIR LE HEROS</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">LES ADVERSAIRES</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,7 +110,7 @@
 
         <!--La troisième section Nemesis-->
 
-        <section>
+        <section class="borderc">
             <div class="container">
                 <div class="habillage">
                     <h2>NEMESIS</h2>
@@ -142,7 +146,7 @@
 
         <!--La quatrième section les Alliés-->
 
-        <section>
+        <section class="borderc">
             <div class="container">
                 <div class="habillage2">
                     <h2>LES ALLIES</h2>
@@ -177,14 +181,15 @@
             </div>
         </section>
 
-        <!--La Cinquième-->
+        <!--La section justice league-->
 
-        <section class="container2">
-            <div>
+        <section class="borderc">
+            <div class="container2">
                 <h2 class="paramain2">JUSTICE LEAGUE</h2>
 
                 <p class="paramain2">Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne sera pas chose aisée. Ensemble ils forment la Justice League,
-                    les plus grands superhéros de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces extraterrestres ou surnaturelles menacent son existence.</p>
+                    les plus grands superhéros de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces extraterrestres ou surnaturelles menacent son existence.</p> <br>
+            </div>
         </section>
         <div>
             <img src="./asset/Illustrations/Bathome11.png" alt="Team - Justice league">
@@ -192,93 +197,149 @@
 
         <!--La section Multimédia-->
 
-        <section>
-            <div>
-                <img src="./asset/Logos/icon_flèche_1.png" alt="Gauche">
-                <img src="./asset/Illustrations/Bathome_ba1.png" alt="Batman en vol">
+        <section class="borderc">
+            <div class="container">
+                <h2>MULTIMEDIA</h2> <br>
             </div>
             <div>
-                <h5>Action, Adventure</h5>
-                <h4>Batman Begins</h4>
-                <p>IMDB:<span>8.2</span></p>
-                <p>
-                    Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De
-                    retour chez lui à Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans la lutte contre le crime sous le nom de Batman.</p>
+                <div class="multimed">
+                    <div class="multimediadesign">
+                        <div>
+                            <img src="./asset/Logos/icon_flèche_1.png" alt="Gauche">
+                        </div>
+                    </div>
+                    <div class="multimediadesign">
+                        <div>
+                            <img src="./asset/Illustrations/Bathome_ba1.png" alt="Batman en vol">
+                        </div>
+                        <div class="groupe">
+                            <h5>Action, Adventure</h5>
+                            <h4>Batman Begins</h4>
+                            <p>IMDB: <span>8.2</span></p>
+                            <p class="pgroupe">
+                                Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De
+                                retour chez lui à Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans la lutte contre le crime sous le nom de Batman.</p>
+                        </div>
+                    </div>
+
+                    <div class="multimediadesign">
+                        <img src="./asset/Logos/icon_flèche_2.png" alt="Droit">
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./asset/Logos/icon_flèche_2.png" alt="Droit">
-            </div>
-            <div>
-                <img src="/asset/Illustrations/Bathome_ba2.png" alt="Vignette">
+        </section>
+        <!--bande annonce-->
+        <section class="borderc">
+            <div class="imgmulti">
+                <img class="img3" src="./asset/Illustrations/Bathome_ba2.png" alt="player">
             </div>
         </section>
 
         <!--Formulaire-->
-        <div>
-            <h4>PRENONS CONCTACT</h4>
-            <form action="">
-                <label for="email">ADRESSE EMAIL</label>
-                <input type="email" name="Adresse email" placeholder="email"> <br>
-                <label for="Newsletters">NEWSLETTERS</label>
-                <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les
+        <section id="formbox">
+            <div>
+                <div class="titreform">
+                    <h2>PRENONS CONCTACT</h2>
+                </div>
+                <div>
+                    <form action="">
+                        <div>
+                            <label for="email">ADRESSE EMAIL</label><br>
+                            <input type="email" name="Adresse email" placeholder="email"> <br>
+                        </div>
+                        <div>
+                            <label for="Newsletters">NEWSLETTERS</label><br>
+                            <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les
                             aventures de Batman :</label>
-                <input type="checkbox" name="checkbox" id=""> <br>
-                <div>
-                    <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
-                    <span>
-                            <img src="./asset/Illustrations/Bathome_ba2.png" alt="player">
-                        </span>
-                </div>
-                <div>
-                    <p>Souhaitez vous recevoir des news
-                    </p> <br>
-                    <a href="#">Des films</a>
-                    <a href="#">Des comics</a>
-                    <a href="#">De tout</a>
-                </div>
-                <label for="Message">MESSAGE</label>
-                <textarea name="Message" id="MESSAGE" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
-                <input type="submit value=" CONFIRMER ">
+                            <input type="checkbox" name="checkbox" id=""> <br>
+                        </div>
+                        <div>
+                            <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span> <br>
+                        </div>
+                        <div>
+                            <span>Souhaitez vous recevoir des news</span> <br>
+                        </div>
+                        <div>
+                            <p>Souhaitez vous recevoir des news
+                            </p> <br>
+                            <a href="#">Des films</a>
+                            <a href="#">Des comics</a>
+                            <a href="#">De tout</a>
+                        </div>
+                        <div>
+                            <label for="Message">MESSAGE</label>
+                            <textarea name="Message" id="MESSAGE" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
+                            <input type="submit value= " CONFIRMER " id="Confirmer "> <br>
+                        </div>
+                        <div>
+                            <button>CONFIRMER</button>
+                        </div>
                     </form>
                 </div>
-            <!--section citation-->
-            <section>
-                <div>
-                    <div>
-                        <img src="./asset/Logos/icon_guillemets_1.png " alt="Guillemets1 ">
-                    </div>
-                    <div>
-                        <p>La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.
-                        </p>
-                    </div>
-                    <div>
-                        The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
-                    </div>
-                    <div>
-                        <img src="./asset/Logos/icon_guillemets_2.png " alt="guillemets2 ">
-                    </div>
-                </div>
-            </section> 
-            
-        </main>
-        <footer>
+            </div>
+        </section>
+        <!--section citation-->
+        <section>
             <div>
                 <div>
-                    <img src="./asset/Logos/icon_WB.png " alt="wB ">
-                    <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+                    <img src="./asset/Logos/icon_guillemets_1.png " alt="Guillemets1 ">
                 </div>
                 <div>
-                    <a href="# ">
-                        <img src="./asset/Logos/logo_sayna_white.png " alt="Sayna ">
-                        <img src="./asset/Logos/icon_x.png " alt="X ">
-                        <img src="./asset/Logos/icon_DC.png " alt="DC ">
-                    </a>
-                    <a href="# "><img src="./asset/Logos/icon_facebook.png " alt="facebook "></a>
-                    <a href="# "><img src="./asset/Logos/icon_ig.png " alt="instagram "></a>
-                    <a href="# "><img src="./asset/Logos/icon_tw.png " alt="twitter "></a>
+                    <p>La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.
+                    </p>
+                </div>
+                <div>
+                    The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
+                </div>
+                <div>
+                    <img src="./asset/Logos/icon_guillemets_2.png " alt="guillemets2 ">
                 </div>
             </div>
-        </footer>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <div class="containerd ">
+                <img src="./asset/Logos/icon_WB.png " alt="wB ">
+                <p class="fontfooter ">Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p> <br>
+            </div>
+            <div>
+                <div class="flexfooter ">
+                    <div>
+                        <a href="# ">
+                            <div>
+                                <img src="./asset/Logos/logo_sayna_white.png " alt="Sayna ">
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="# ">
+                            <div>
+                                <img src="./asset/Logos/icon_x.png " alt="X ">
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="# ">
+                            <div>
+                                <img src="./asset/Logos/icon_DC.png " alt="DC ">
+                            </div>
+                        </a>
+                    </div>       
+                    <div>
+                        <a href="# "><img src="./asset/Logos/icon_facebook.png " alt="facebook "></a>
+                    </div>
+                    <div>
+                        <a href="# "><img src="./asset/Logos/icon_ig.png " alt="instagram "></a>
+                    </div>
+                    <div>
+                    <a href="# "><img src="./asset/Logos/icon_tw.png " alt="twitter "></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 </body>

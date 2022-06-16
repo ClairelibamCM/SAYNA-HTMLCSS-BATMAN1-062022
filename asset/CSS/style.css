@@ -14,9 +14,10 @@
     --blue-color: #19587d;
     --red-color: #b11313;
     --black-color: #0D0E09;
-    --gradient-white: #18577b80;
+    --gradient-white: #ffffff75;
     --gradient-red: #8900099a;
     --gris-color: #c4c4c454;
+    --groove-color: #BCBBBD;
 }
 
 
@@ -25,7 +26,7 @@
 .bordera {
     color: white;
     border-style: groove;
-    border: 2px solid var(--gris-color);
+    border: 2px solid var(--groove-color);
     border-top: none;
     margin-top: 0%;
     margin-left: 6%;
@@ -33,6 +34,16 @@
 }
 
 .borderb {
+    color: white;
+    border-style: groove;
+    border: 2px solid var(--gris-color);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.borderc {
     color: white;
     border-style: groove;
     border: 2px solid var(--gris-color);
@@ -111,9 +122,18 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    padding: 5px 40px;
-    height: 30px;
-    background-color: linear-gradient( 90deg, var(--gradient-white);
+    background: linear-gradient( 90deg, var(--gradient-white), var(--gradient-red));
+    width: 230px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.btncolor {
+    background: linear-gradient( 90deg, var(--gradient-white);
     var(--gradient-red));
 }
 
@@ -126,12 +146,11 @@ h2 {
 
 .cta {
     font-family: 'Space Grotesk', sans-serif;
+    display: flex;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 15%;
+    margin: 5% 20% 15%;
     padding-top: 4px;
     padding-bottom: 4px;
     color: white;
@@ -232,7 +251,7 @@ h2 {
 
 .paramain {
     text-align: justify;
-    margin-right: 250px;
+    margin-right: 180px;
 }
 
 .habillage2 {
@@ -259,4 +278,94 @@ h2 {
 .container2 {
     width: 100%;
     margin: -10px;
+}
+
+
+/* Design de la multimédia */
+
+.groupe {
+    width: 400px;
+    border: 1px solid #bcbbbd96;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background: #727272;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.pgroupe {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    padding-top: 10px;
+    margin-top: 12px;
+}
+
+.img3 {
+    width: 60%;
+    height: 1%;
+    margin: 2%;
+}
+
+.imgmulti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.multimediadesign {
+    display: flex;
+}
+
+.multimed {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding-bottom: 120px;
+}
+
+
+/* Design du formulaire */
+
+#formbox {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    background: #727272;
+    background-size: cover;
+    border-color: 2px #BCBBBD;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.titreform {
+    text-align: center;
+}
+
+
+/* Design de la section footer */
+
+.containerd {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.flexfooter {
+    display: flex;
+    justify-items: center;
+}
+
+.flexfooter>div {
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.fontfooter {
+    font-size: 10px;
+    padding: 10px;
 }
