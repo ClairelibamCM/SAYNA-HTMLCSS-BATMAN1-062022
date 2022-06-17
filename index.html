@@ -18,7 +18,7 @@
         <div class="container">
             <nav>
                 <a href="index.html">
-                    <img src="./asset/Logos/logohome.png" alt="logohome">
+                    <img class="color:hover" src="./asset/Logos/logohome.png" alt="logohome">
                 </a>
                 <ul>
                     <li> <a href="index.html">Home</a></li>
@@ -39,10 +39,10 @@
                             </div>
                             <div class="cta">
                                 <div>
-                                    <a href="#" class="btn">VOIR LE HEROS</a>
+                                    <a href="#batman-cinema" class="btn">VOIR LE HEROS</a>
                                 </div>
                                 <div>
-                                    <a href="#" class="btn">LES ADVERSAIRES</a>
+                                    <a href="#Nemesis" class="btn">LES ADVERSAIRES</a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                 </div>
                 <img id="flecheheader" src="./asset/Logos/flèche_down_header.png" alt="flechedown">
             </section>
-            <!-- Les réseaux sociaux -->
+            <!-- Les réseaux sociaux scroll-->
             <div class="aside">
                 <div>
                     <div class="aligner">
@@ -110,7 +110,7 @@
 
         <!--La troisième section Nemesis-->
 
-        <section class="borderc">
+        <section id="Nemesis" class="borderc">
             <div class="container">
                 <div class="habillage">
                     <h2>NEMESIS</h2>
@@ -215,7 +215,7 @@
                         <div class="groupe">
                             <h5>Action, Adventure</h5>
                             <h4>Batman Begins</h4>
-                            <p>IMDB: <span>8.2</span></p>
+                            <p>IMDB: <span class="yellow">8.2</span></p>
                             <p class="pgroupe">
                                 Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De
                                 retour chez lui à Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans la lutte contre le crime sous le nom de Batman.</p>
@@ -231,7 +231,7 @@
         <!--bande annonce-->
         <section class="borderc">
             <div class="imgmulti">
-                <img class="img3" src="./asset/Illustrations/Bathome_ba2.png" alt="player">
+                <object width="700" height="450" data="https://www.youtube.com/embed/jXrFsn9pcZY"></object>
             </div>
         </section>
 
@@ -241,38 +241,33 @@
                 <div class="titreform">
                     <h2>PRENONS CONCTACT</h2>
                 </div>
-                <div>
-                    <form action="">
+                <div class="formPosition">
+                    <form action="#">
                         <div>
-                            <label for="email">ADRESSE EMAIL</label><br>
-                            <input type="email" name="Adresse email" placeholder="email"> <br>
+                            <label for="email" class="formlabel">ADRESSE EMAIL</label><br>
+                            <input type="email" name="Adresse email" placeholder="email" class="forminput"> <br>
                         </div>
                         <div>
-                            <label for="Newsletters">NEWSLETTERS</label><br>
-                            <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les
-                            aventures de Batman :</label>
+                            <label for="Newsletters" class="formlabel">NEWSLETTERS</label><br>
+                            <P class="forminput">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</p>
                             <input type="checkbox" name="checkbox" id=""> <br>
                         </div>
                         <div>
-                            <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span> <br>
+                            <span class="forminput">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span> <br>
                         </div>
                         <div>
-                            <span>Souhaitez vous recevoir des news</span> <br>
-                        </div>
-                        <div>
-                            <p>Souhaitez vous recevoir des news
+                            <p class="forminput">Souhaitez vous recevoir des news
                             </p> <br>
                             <a href="#">Des films</a>
                             <a href="#">Des comics</a>
                             <a href="#">De tout</a>
                         </div>
-                        <div>
-                            <label for="Message">MESSAGE</label>
-                            <textarea name="Message" id="MESSAGE" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
-                            <input type="submit value= " CONFIRMER " id="Confirmer "> <br>
+                        <div class="formPos">
+                            <label for="Message" class="formlabel">MESSAGE</label>
+                            <textarea name="Message" id="MESSAGE" cols="30" placeholder="Laissez un commentaire pour la communauté" class="forminput"></textarea>
                         </div>
                         <div>
-                            <button>CONFIRMER</button>
+                            <button class="butnform">CONFIRMER</button>
                         </div>
                     </form>
                 </div>
@@ -282,17 +277,20 @@
         <section>
             <div>
                 <div>
-                    <img src="./asset/Logos/icon_guillemets_1.png " alt="Guillemets1 ">
+                    <img class="citationImg2" src="./asset/Logos/icon_guillemets_1.png " alt="Guillemets1 ">
                 </div>
-                <div>
-                    <p>La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.
-                    </p>
+                <div class="citationform">
+                    <div>
+                        <p class="citationtext">La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.
+                        </p> <br>
+                    </div>
+                    <div>
+                        <p class="citationtext2">The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</p> <br>
+                    </div>
                 </div>
+
                 <div>
-                    The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
-                </div>
-                <div>
-                    <img src="./asset/Logos/icon_guillemets_2.png " alt="guillemets2 ">
+                    <img class="citationImg" src="./asset/Logos/icon_guillemets_2.png " alt="guillemets2 ">
                 </div>
             </div>
         </section>
@@ -326,7 +324,7 @@
                                 <img src="./asset/Logos/icon_DC.png " alt="DC ">
                             </div>
                         </a>
-                    </div>       
+                    </div>
                     <div>
                         <a href="# "><img src="./asset/Logos/icon_facebook.png " alt="facebook "></a>
                     </div>
@@ -334,7 +332,7 @@
                         <a href="# "><img src="./asset/Logos/icon_ig.png " alt="instagram "></a>
                     </div>
                     <div>
-                    <a href="# "><img src="./asset/Logos/icon_tw.png " alt="twitter "></a>
+                        <a href="# "><img src="./asset/Logos/icon_tw.png " alt="twitter "></a>
                     </div>
                 </div>
             </div>
