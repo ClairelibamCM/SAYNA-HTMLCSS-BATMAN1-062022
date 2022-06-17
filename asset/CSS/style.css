@@ -1,6 +1,6 @@
 /* definisons la famille de police */
 
-@import URL('HTTPS://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import URL('HTTPS://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -132,6 +132,10 @@ h2 {
     margin: 10px 20px;
 }
 
+.btn :hover {
+    opacity: 1;
+}
+
 .btncolor {
     background: linear-gradient( 90deg, var(--gradient-white);
     var(--gradient-red));
@@ -154,6 +158,10 @@ h2 {
     padding-top: 4px;
     padding-bottom: 4px;
     color: white;
+}
+
+.color :hover {
+    color: var(--yellow-color);
 }
 
 
@@ -194,9 +202,10 @@ h2 {
 
 .aside {
     display: block;
+    position: fixed;
     width: 150px;
     margin-left: 1258px;
-    margin-top: -450px;
+    margin-top: -620px;
     background-color: transparent;
 }
 
@@ -311,6 +320,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 100px;
 }
 
 .multimediadesign {
@@ -325,11 +336,15 @@ h2 {
     padding-bottom: 120px;
 }
 
+.multimed {
+    color: var(--yellow-color);
+}
+
 
 /* Design du formulaire */
 
 #formbox {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
     background: #727272;
     background-size: cover;
@@ -339,10 +354,114 @@ h2 {
     display: inline-block;
     justify-content: center;
     align-items: center;
+    height: 700px;
+    width: 1350px;
 }
 
-.titreform {
+.formPosition {
+    margin-left: 220px;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.formlabel {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    padding-left: 15px;
+}
+
+.forminput {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px var(--gradient-white);
+    color: var(--gradient-white);
+    width: 800px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.formPo {
+    display: flex;
+}
+
+.formPos {
+    display: block;
+}
+
+.butnform {
+    background: linear-gradient( 90 deg, var(--blue-color), var (--gradient-red));
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: block;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.butnform :hover {
+    opacity: 1;
+}
+
+
+/* Design de la section citation */
+
+.citation {
+    text-align: center;
+}
+
+.citationform {
+    display: block;
+    text-align: center;
+    justify-items: center;
+    padding-top: 250px;
+}
+
+.citationtext {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 440px;
+    float: right;
+    margin-right: 480px;
+    padding-bottom: 10px;
+}
+
+.citationtext2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    width: 200px;
+    float: right;
+    margin-right: 600px;
+    padding-bottom: 5px;
+}
+
+.citationImg {
+    float: right;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: -450px;
+    padding-bottom: 60px;
+}
+
+.citationImg2 {
+    float: left;
+    width: 5%;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding-top: 60px;
 }
 
 
@@ -352,17 +471,17 @@ h2 {
     display: flex;
     margin: 100px;
     justify-content: center;
+    padding-top: 20%;
 }
 
 .flexfooter {
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 
 .flexfooter>div {
-    align-items: center;
-    justify-content: space-around;
-    width: 10%;
+    align-content: center;
+    width: 3%;
 }
 
 .fontfooter {
