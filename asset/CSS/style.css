@@ -39,8 +39,8 @@
     border: 2px solid var(--gris-color);
     border-top: none;
     border-bottom: none;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .borderc {
@@ -49,8 +49,9 @@
     border: 2px solid var(--gris-color);
     border-top: none;
     border-bottom: none;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: -15%;
 }
 
 
@@ -72,7 +73,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 ul {
@@ -168,7 +169,7 @@ h2 {
 /* Definition Container */
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -204,8 +205,8 @@ h2 {
     display: block;
     position: fixed;
     width: 150px;
-    margin-left: 1258px;
-    margin-top: -620px;
+    margin-left: 1235px;
+    margin-top: -700px;
     background-color: transparent;
 }
 
@@ -294,6 +295,7 @@ h2 {
 
 .groupe {
     width: 400px;
+    color: var(--white-color);
     border: 1px solid #bcbbbd96;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -305,6 +307,7 @@ h2 {
 
 .pgroupe {
     font-family: 'Space Grotesk', sans-serif;
+    color: var(--white-color);
     font-size: 11px;
     padding-top: 10px;
     margin-top: 12px;
@@ -336,7 +339,7 @@ h2 {
     padding-bottom: 120px;
 }
 
-.multimed {
+.yellow {
     color: var(--yellow-color);
 }
 
@@ -411,6 +414,10 @@ h2 {
 
 .butnform :hover {
     opacity: 1;
+}
+
+.titreform {
+    text-align: center;
 }
 
 
